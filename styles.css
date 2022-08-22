@@ -120,7 +120,7 @@ a{
 .top-container{
     padding-top: 5%;
     
-    background-image:url('skyscraper-2.gif') ,linear-gradient(to left,#e1f8ff,#c9ebff,#abb5ff,#7475b6, #5148b2);
+    background-image:url('media/skyscraper-2.gif') ,linear-gradient(to left,#e1f8ff,#c9ebff,#abb5ff,#7475b6, #5148b2);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 30% 70%, cover;
@@ -128,7 +128,7 @@ a{
     
 }
 .middle-container{
-    background-image: url('computer-gif.gif'), linear-gradient(30deg,#B2C8DF 50%,#C4D7E0 50%);
+    background-image: url('media/computer-gif.gif'), linear-gradient(30deg,#B2C8DF 50%,#C4D7E0 50%);
     background-repeat: no-repeat;
     background-size: 60% 80%, cover;
     padding-top: 7%;
