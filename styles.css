@@ -1,0 +1,272 @@
+
+
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #293462;
+}
+.nav-list{
+    list-style-type: none;
+    text-align: right;
+    margin-right:10%;
+}
+.nav-bar{
+    background-color: #1597BB;
+    padding-top:1%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+   
+}
+li{
+    display:inline;
+    margin-right:1%;
+    font-family: 'DynaPuff', cursive;
+    
+}
+.li{
+    color: #e1f8ff;
+    text-decoration: none;    
+}
+.li:hover{
+    color:#B5CDA3
+}
+
+
+.name-box{
+     padding-bottom: 23%;
+     margin-top: 0;
+     padding-top: 0;
+}
+    
+
+.name{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #040303 0%,
+    #461111 29%,
+    #A13333 67%,
+    #B3541E 100%
+  );    
+  background-size: 200% auto;  
+  background-clip: text; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 10vw;
+      font-family: 'Alumni Sans Pinstripe', sans-serif;
+  margin-bottom: 1%;
+  position: relative;
+       
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+.web-dev{
+    font-size: 2vw; 
+    font-weight: normal;
+    margin-top:0.01%;
+    font-family: 'Aboreto', cursive;
+    color: #2C061F;
+    margin-bottom: 0.5%;
+    
+}    
+.web{
+    display: inline-block;
+    animation: rotation 3s infinite; 
+    margin-right:0.5%;
+    margin-left: 0.5%;
+}
+@keyframes rotation{
+   0% {transform:rotateY(360deg)}
+}
+.sun{
+    position:absolute;
+    right:5%;
+    display:inline-block;
+    width:10%;
+    top:11%;
+}
+.moon{
+    position: absolute;
+    display: inline-block;
+    width:13%;
+    left:1%;
+    top:50%;
+    transform:rotateZ(300deg);
+}
+
+
+h2{
+    font-family: 'Aboreto', cursive;
+    font-size: 3vw;
+    color: #66BFBF;
+}
+h3{
+    font-family: 'Saira', sans-serif;
+    color: #BFA2DB;
+    font-size: 1.5vw;
+}
+a{
+    color: #11999E;
+}
+.top-container{
+    padding-top: 5%;
+    
+    background-image:url('skyscraper-2.gif') ,linear-gradient(to left,#e1f8ff,#c9ebff,#abb5ff,#7475b6, #5148b2);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 30% 70%, cover;
+    
+    
+}
+.middle-container{
+    background-image: url('computer-gif.gif'), linear-gradient(30deg,#B2C8DF 50%,#C4D7E0 50%);
+    background-repeat: no-repeat;
+    background-size: 60% 80%, cover;
+    padding-top: 7%;
+    background-position: 50% 50%;
+    padding-bottom: 3%;
+    
+}
+.top-cloud{
+    position:absolute;
+    top:25%;
+    right:10%; 
+    width:13%;
+   
+}
+.bottom-cloud{
+    position:absolute;
+    top:40%;
+    left:3%;
+    width:13%;
+}
+
+p{
+    font-size: 1.3vw;
+}
+.display-photo{
+    height:23%;
+    width:18%;
+    border-radius: 100%;
+    
+   
+}
+.abt-sec{
+    width:50%;
+    margin: auto;
+    font-family: 'Cairo', sans-serif;
+    text-align: justify;
+    color: #1B2430;
+}
+.hello{
+    color: #1B2430;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 1%;
+}
+
+.html-div{
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+.html-content{
+    margin-left: 30%;
+    text-align: justify;
+    color: #9ADCFF;
+}
+.html5{
+    height:17em;
+    width:15em;
+    float: left;
+    
+}
+.css-div{
+    text-align: center;
+}
+.css3{
+    height:17em;
+    width:15em;
+    float: right;
+    margin-top: 10%;
+    
+    
+}
+.css-content{
+    text-align: justify;
+    margin-right: 40%;
+    color: #9ADCFF;
+}
+.wordpress{
+    height:17em;
+    width:15em;
+    float: left;
+    margin-right:3%;
+    margin-left: 25%;
+    margin-top: 6%;
+    
+}
+.wordpress-div{
+    text-align: center;
+    width:60%;
+    margin-left: 10%;
+    margin: autos;
+}
+.wordpress-content{
+    text-align: justify;
+    margin-left:30%;
+    color: #9ADCFF;
+}
+.skills{
+    padding-top: 7%;
+    background-image: linear-gradient(30deg,#1A1A40 50%,#270082 50%);
+    padding-bottom: 5%;
+}
+.skill-row{
+    margin: 10%;
+}
+.contactme-icons{
+    height:3%;
+    width:3%;
+    margin:1%
+}
+.skill-row{
+    width:50%;
+    margin:5% auto;
+  
+}
+p{
+    line-height: 2;
+}
+div{
+    min-height: 100px;
+   overflow: hidden;
+}
+.git{
+    color: #CDF0EA;
+    font-family: 'Raleway', sans-serif;
+
+}
+.personal-project{
+    font-family: 'Cairo', sans-serif;
+    color:#F9F9F9
+}
+.cont{
+    color: #CDF0EA;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.email{
+    text-decoration: none;
+}
+.email:hover{
+    color: #F9F9F9;
+}
