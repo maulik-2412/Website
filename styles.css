@@ -1,6 +1,4 @@
-*{
-    scroll-behavior:smooth;
-}
+
 
 
 body{
@@ -15,7 +13,7 @@ body{
     margin-right:10%;
 }
 .nav-bar{
-    background-color: #1597BB;
+   
     
     position: fixed;
     width: 100%;
@@ -32,7 +30,7 @@ li{
     
 }
 .li{
-    color: #e1f8ff;
+    color: #E14D2A;
     text-decoration: none;
        
 }
@@ -126,10 +124,10 @@ a{
 .top-container{
     padding-top: 5%;
     
-    background-image:url('media/skyscraper-2.gif') ,linear-gradient(to left,#e1f8ff,#c9ebff,#abb5ff,#7475b6, #5148b2);
+    background-image:url(media/Screenshot_20220925-154818.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 30% 70%, cover;
+    
+    background-size: 100% 100%;
     position: relative;
     
     
