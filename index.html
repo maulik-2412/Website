@@ -109,6 +109,13 @@
         <li class="nav-item">
           <a
             class="nav-link nav-largescreen nav-diffcolor"
+            href="#projects"
+          >Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link nav-largescreen nav-diffcolor"
             href="#contact"
           >Contact</a>
         </li>
@@ -128,7 +135,7 @@
     >
       <span>
         <img
-          class="btn-image"
+          class="btn-image-navbar"
           src="media/icons8-menu-24.png"
         >
       </span>
@@ -159,6 +166,13 @@
             class="mobile navlinks nav-link white"
             href="#skills"
           >Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="mobile navlinks nav-link white"
+            href="#projects"
+          >Projects</a>
         </li>
 
         <li class="nav-item">
@@ -348,8 +362,11 @@
     </div>
   </div>
 
-  <div class="projects">
-    <h2 class="skill-head">My Projects</h2>
+  <div
+    class="projects"
+    id="projects"
+  >
+    <h2 class="project-head">My Projects</h2>
 
     <div
       id="project-carousel"
@@ -358,16 +375,18 @@
     >
       <div class="carousel-inner carousel-block">
         <div class="carousel-item active">
-          <a href="https://enva.msit.in/"><img
-            src="media/enva.PNG"
-            class="d-block w-100 carousel-image"
-            alt="..."
-          >
+          <a href="https://enva.msit.in/">
+            <img
+              src="media/enva.PNG"
+              class="d-block w-100 carousel-image"
+              alt="..."
+            >
           </a>
+
           <div class="carousel-caption d-none d-md-block carousel-content">
             <h5>ENVA 2023</h5>
 
-            <p>
+            <p class="carousel-p">
               A website project I created with Prakriti MSIT
             </p>
           </div>
@@ -383,7 +402,7 @@
           <div class="carousel-caption d-none d-md-block carousel-content">
             <h5>Second slide label</h5>
 
-            <p>
+            <p class="carousel-p">
               Some representative placeholder content for the second slide.
             </p>
           </div>
@@ -395,7 +414,7 @@
           type="button"
           data-bs-target="#project-carousel"
           data-bs-slide-to="0"
-          class="active"
+          class="active bg-dark"
           aria-current="true"
           aria-label="Slide 1"
         ></button>
@@ -404,6 +423,7 @@
           type="button"
           data-bs-target="#project-carousel"
           data-bs-slide-to="1"
+          class="bg-dark"
           aria-label="Slide 2"
         ></button>
       </div>
@@ -455,7 +475,7 @@
     <h3 class="cont">
       <a
         class="email"
-        href="mailto:mauliktyagi@gmail.com"
+        href="mailto:mauliktyagi08@gmail.com"
       >Contact Me</a>
     </h3>
   </div>

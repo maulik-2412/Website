@@ -1,171 +1,122 @@
-/*Bootsratp CSS*/
-a.nav-link.nav-largescreen.nav-diffcolor {
-    color: #E14D2A;
-}
-.navbar-nav.mr-auto.custom-nav{
-    margin-bottom: 3%;
-    position: relative;
-    margin-right: 3%;
-}
-.btn-image{
-    width:120%;
-}
-.mobile.navlinks.nav-link.white{
-    color:white;
-}
-.mobile.navlinks.nav-link.white:hover{
-    color:red;
-}
-.card.skills-card{
-    text-align: center;
-    margin:auto;
-    height: 18vw;
-    max-width: 250px;
-    background: rgb(233,102,160);
-    background: linear-gradient(320deg, rgba(233,102,160,1) 17%, rgba(43,39,48,1) 63%);
-}
-.col-lg-4.col-sm-6.card-cover{
-    padding: 0%;
-    margin:4% 0 0;
-   
-}
-.card-title.skill-name{
-    font-size: 1.5rem;
-    margin: auto;
-    padding-top: 2%;
-    color: #FAF0E4;
-    
-}
-.wordpress.cpanel{
-    width: 60%;
-}
-
-@media screen and (max-width:574px){
-.card.skills-card{
-    width:60%;
-    max-width:3000px;
-    height:16rem;
-    
-}
-.card-title.skill-name{
-    font-size:2rem;
-    padding-top: 3%;
-}
-
-}
-.carousel-inner.carousel-block{
-    width: 60%;
-    margin: auto;
-}
-.carousel-caption.d-none.d-md-block.carousel-content{
-    position: relative;
-    left: 0;
-    right: 0;
-    padding-top: 4%;
-}
-.carousel-indicators.car-indi{
-    position: relative;
-    
-}
-.d-block.w-100.carousel-image{
-    width: 80%;
-    aspect-ratio: 9/5;
-}
-.car-main{
-    margin-top:5%;
-}
-.projects{
-    padding-top: 5%;
-    background: rgb(231,206,166);
-    background: linear-gradient(320deg, rgba(231,206,166,1) 17%, rgba(10,110,189,1) 63%);
-}
-.contact-me{
-    padding-top: 3%;
-}
-.getintouch{
-    font-size: 2rem;
-}
-.bot-copy{
-   font-size: 1rem; 
-   color: white;
-}
-.footer-link{
-    color: #293462;
-}
-/* Original css */
+/*Body General CSS*/
 body{
     margin: 0px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     background-color: #293462;
 }
-.nav-list{
-    list-style-type: none;
-    text-align: right;
-    margin-right:10%;
-}
-.nav-bar{
-   
-    
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    height: 6%;
-   
-}
-li{
-    display:inline;
-    margin-right:1%;
-    font-family: 'DynaPuff', cursive;
-    
-    
-    
-}
-.li{
-    color: #E14D2A;
-    text-decoration: none;
-       
-}
-.li:hover{
-    color:#B5CDA3
+
+div{
+    min-height: 100px;
+   overflow: hidden;
 }
 
+h2{
+    font-family: 'Aboreto', cursive;
+    font-size: 3vw;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Lugrasimo', cursive;
+    color: #BFA2DB;
+    font-size: 1.5vw;
+}
+
+h5{
+    color:#1A1A40;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+li{
+    margin-right:1%;
+    font-family: 'DynaPuff', cursive;    
+}
+
+p{
+    font-size: 1.3vw;
+    line-height: 2;
+}
+
+
+/* Navigation Bar */
+
+    /* Large Screen Navigation Bar */
+    a.nav-link.nav-largescreen.nav-diffcolor {
+        color: #E14D2A;
+    }
+
+    .navbar-nav.mr-auto.custom-nav{
+        margin-bottom: 3%;
+        position: relative;
+        margin-right: 3%;
+    }
+
+
+    /* Small Screen Navigation Bar */
+    .btn-image-navbar{ 
+        width:120%;
+    }
+
+    .mobile.navlinks.nav-link.white{
+        color:white;
+    }
+
+    .mobile.navlinks.nav-link.white:hover{
+        color:red;
+    }
+
+
+
+/* Home Page */
+.top-container{
+    padding-top: 7%;
+    
+    background-image:url(media/Screenshot_20220925-154818.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%;
+    position: relative;
+    
+    
+}
 
 .name-box{
-     padding-bottom: 23%;
-     margin-top: 0;
-     padding-top: 0;
+    padding-bottom: 23%;
+    margin-top: 0;
+    padding-top: 0;
 }
-    
 
 .name{
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #040303 0%,
-    #461111 29%,
-    #A13333 67%,
-    #B3541E 100%
-  );    
-  background-size: 200% auto;  
-  background-clip: text; 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-      font-size: 12vw;
-      font-family: 'Alumni Sans Pinstripe', sans-serif;
-  margin-bottom: 1%;
-  position: relative;
-  font-weight: 700;
-       
-}
+    text-transform: uppercase;
+   background-image: linear-gradient(
+     -225deg,
+     #040303 0%,
+     #461111 29%,
+     #A13333 67%,
+     #B3541E 100%
+   );    
+   background-size: 200% auto;  
+   background-clip: text; 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+   display: inline-block;
+       font-size: 12vw;
+       font-family: 'Alumni Sans Pinstripe', sans-serif;
+   margin-bottom: 1%;
+   position: relative;
+   font-weight: 700;
+        
+ }
 
 @keyframes textclip {
     to {
       background-position: 200% center;
     }
   }
+
 .web-dev{
     font-size: 2vw; 
     font-weight: normal;
@@ -183,48 +134,11 @@ li{
 }
 @keyframes rotation{
    0% {transform:rotateY(360deg)}
-}
-.sun{
-    position:absolute;
-    right:5%;
-    display:inline-block;
-    width:10%;
-    top:20%;
-}
-.moon{
-    position: absolute;
-    display: inline-block;
-    width:13%;
-    left:2%;
-    top:60% ;
-    transform:rotateZ(300deg);
-}
+}  
 
 
-h2{
-    font-family: 'Aboreto', cursive;
-    font-size: 3vw;
-    color: #66BFBF;
-}
-h3{
-    font-family: 'Lugrasimo', cursive;
-    color: #BFA2DB;
-    font-size: 1.5vw;
-}
-a{
-    color: #11999E;
-}
-.top-container{
-    padding-top: 7%;
-    
-    background-image:url(media/Screenshot_20220925-154818.jpg);
-    background-repeat: no-repeat;
-    
-    background-size: 100% 100%;
-    position: relative;
-    
-    
-}
+
+/* About Section */
 .middle-container{
     background-image: url('media/computer-gif.gif'), linear-gradient(30deg,#B2C8DF 50%,#C4D7E0 50%);
     background-repeat: no-repeat;
@@ -235,22 +149,21 @@ a{
     height: fit-content;
 }
 
-p{
-    font-size: 1.3vw;
-}
 .display-photo{
     
     width:25%;
     border-radius: 100%;   
 }
+
 .abt-sec{
     width:60%;
     margin: auto;
     font-family: 'Cairo', sans-serif;
     text-align: justify;
-    color: #1B2430;
-    font-size: 2vw;
+    color: black;
+    font-size: 2rem;
 }
+
 .hello{
     color: #1B2430;
     font-family: 'Josefin Sans', sans-serif;
@@ -259,119 +172,172 @@ p{
     margin-top: 1%;
 }
 
-.html-div{
-    text-align: center;
-    margin-bottom: 5%;
-    
-}
-.html-content{
-    margin-left: 30%;
-    text-align: justify;
-    color: #9ADCFF;
-}
 
-.css-div{
-    text-align: center;
-}
-
-.css-content{
-    text-align: justify;
-    margin-right: 40%;
-    color: #9ADCFF;
-}
-.wordpress{
-    height:50%;  
-    margin: auto;
-    padding-top: 5%;
-}
-.wordpress-div{
-    text-align: center;
-    width:60%;
-    margin-left: 10%;
-    margin: autos;
-}
-.wordpress-content{
-    text-align: justify;
-    margin-left:30%;
-    color: #9ADCFF;
-}
+/* Skill Section */
 .skills{
     padding-top: 11%;
     background-image: linear-gradient(30deg,#1A1A40 50%,#270082 50%);
     padding-bottom: 5%;
 }
+
 .skill-head{
     font-size: 2.1rem;
     font-weight:bold;
 }
-.skill-row{
-    margin: 10%;
+
+.card.skills-card{
+    text-align: center;
+    margin:auto;
+    height: 18vw;
+    max-width: 250px;
+    background: #B2C8DF;
+    background: linear-gradient(30deg,#B2C8DF 50%,#C4D7E0 50%);
 }
-.contactme-icons{
-    height:2rem;
-    width:2rem;
-    margin:1%;
+
+.col-lg-4.col-sm-6.card-cover{
+    padding: 0%;
+    margin:4% 0 0;
+   
 }
-.skill-row{
-    width:50%;
-    margin:5% auto;
-  
+
+.card-title.skill-name{
+    font-size: 1.5rem;
+    margin: auto;
+    padding-top: 2%;
+    color: #270082;
+    
 }
-p{
-    line-height: 2;
+
+.wordpress{
+    height:50%;  
+    margin: auto;
+    padding-top: 5%;
 }
-div{
-    min-height: 100px;
-   overflow: hidden;
+
+.wordpress.cpanel{
+    width: 60%;
 }
+
+@media screen and (max-width:574px){
+    .card.skills-card{
+        width:60%;
+        max-width:3000px;
+        height:16rem;
+        
+    }
+    .card-title.skill-name{
+        font-size:2rem;
+        padding-top: 3%;
+    }
+}
+
+
+
+
+
+/* Project Section */
+.projects{
+    padding-top: 5%;
+    background: rgb(231,206,166);
+    background: linear-gradient(30deg,#B2C8DF 50%,#C4D7E0 50%);
+}
+
+.project-head{
+    font-size: 2.1rem;
+    font-weight:bold;
+    color: #1A1A40;
+}
+
+.car-main{
+    margin-top:5%;
+}
+
+.carousel-inner.carousel-block{
+    width: 60%;
+    margin: auto;
+}
+
+.d-block.w-100.carousel-image{
+    width: 80%;
+    aspect-ratio: 9/5;
+}
+
+.carousel-caption.d-none.d-md-block.carousel-content{
+    position: relative;
+    left: 0;
+    right: 0;
+    padding-top: 4%;
+}
+
+.carousel-p{
+    color:#2C061F;
+    font-size: 1.5rem;
+}
+
+.carousel-indicators.car-indi{
+    position: relative;
+    
+}
+
+
+
+
+/* Contact Me Section */
+.contact-me{
+    padding-top: 3%;
+}
+
+.getintouch{
+    font-size: 2rem;
+}
+
 .git{
     color: #CDF0EA;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
 
 }
+
 .personal-project{
     font-family: 'Cairo', sans-serif;
     color:#F9F9F9;
     font-size: 0.8rem;
 }
+
 .cont{
     color: #CDF0EA;
     font-family: 'Raleway', sans-serif;
     font-size: 2rem;
     
 }
+
 .email{
     text-decoration: none;
 }
+
 .email:hover{
     color: #F9F9F9;
 }
 
-@media all and (max-width:860px){
-    
-    .word-head{
-        margin-left: 30%;
-        font-size: 3vw;
-    }
-    .css3{
-        float: none;
-        height:65%;
-        width:45%; 
-    }
-    .css-content{
-        margin-right: 13%;
-        margin-left:9%
-    }
-    .html5{
-        float: none;
-        height:65%;
-        width:45%; 
-    }
-    .html-content{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+/*Bottom Section*/
+.footer-link{
+    color: #293462;
+}
+
+
+
+.contactme-icons{
+    height:2rem;
+    width:2rem;
+    margin:1%;
+}
+
+.bot-copy{
+    font-size: 1rem; 
+    color: white;
+}
+
+@media all and (max-width:860px){ 
     .name{
         font-size: 16vw;
         z-index:5;
@@ -391,27 +357,11 @@ div{
         font-size: 7vw;
     }
     .abt-sec{
-        font-size:2vw;
+        font-size:0.7rem;
         font-weight: 800;   
         }
     h2{
         font-size: 6vw;
-    }
-    .lang{
-        font-size: 3vw;
-    }
-    .html-content{
-        font-size: 2.2vw;
-    }
-    .css-head{
-        font-size: 3vw;
-    }
-    .css-content{
-        font-size: 2.2vw;
-
-    }
-    .wordpress-content{
-        font-size: 2.2vw;
     }
     h3{
         font-size: 2.2vw;
@@ -420,3 +370,52 @@ div{
         font-size: 2vw;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
