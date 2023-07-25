@@ -1,6 +1,98 @@
+/*Bootsratp CSS*/
+a.nav-link.nav-largescreen.nav-diffcolor {
+    color: #E14D2A;
+}
+.navbar-nav.mr-auto.custom-nav{
+    margin-bottom: 3%;
+    position: relative;
+    margin-right: 3%;
+}
+.btn-image{
+    width:120%;
+}
+.mobile.navlinks.nav-link.white{
+    color:white;
+}
+.mobile.navlinks.nav-link.white:hover{
+    color:red;
+}
+.card.skills-card{
+    text-align: center;
+    margin:auto;
+    height: 18vw;
+    max-width: 250px;
+    background: rgb(233,102,160);
+    background: linear-gradient(320deg, rgba(233,102,160,1) 17%, rgba(43,39,48,1) 63%);
+}
+.col-lg-4.col-sm-6.card-cover{
+    padding: 0%;
+    margin:4% 0 0;
+   
+}
+.card-title.skill-name{
+    font-size: 1.5rem;
+    margin: auto;
+    padding-top: 2%;
+    color: #FAF0E4;
+    
+}
+.wordpress.cpanel{
+    width: 60%;
+}
 
+@media screen and (max-width:574px){
+.card.skills-card{
+    width:60%;
+    max-width:3000px;
+    height:16rem;
+    
+}
+.card-title.skill-name{
+    font-size:2rem;
+    padding-top: 3%;
+}
 
-
+}
+.carousel-inner.carousel-block{
+    width: 60%;
+    margin: auto;
+}
+.carousel-caption.d-none.d-md-block.carousel-content{
+    position: relative;
+    left: 0;
+    right: 0;
+    padding-top: 4%;
+}
+.carousel-indicators.car-indi{
+    position: relative;
+    
+}
+.d-block.w-100.carousel-image{
+    width: 80%;
+    aspect-ratio: 9/5;
+}
+.car-main{
+    margin-top:5%;
+}
+.projects{
+    padding-top: 5%;
+    background: rgb(231,206,166);
+    background: linear-gradient(320deg, rgba(231,206,166,1) 17%, rgba(10,110,189,1) 63%);
+}
+.contact-me{
+    padding-top: 3%;
+}
+.getintouch{
+    font-size: 2rem;
+}
+.bot-copy{
+   font-size: 1rem; 
+   color: white;
+}
+.footer-link{
+    color: #293462;
+}
+/* Original css */
 body{
     margin: 0px;
     text-align: center;
@@ -61,10 +153,11 @@ li{
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-      font-size: 10vw;
+      font-size: 12vw;
       font-family: 'Alumni Sans Pinstripe', sans-serif;
   margin-bottom: 1%;
   position: relative;
+  font-weight: 700;
        
 }
 
@@ -114,7 +207,7 @@ h2{
     color: #66BFBF;
 }
 h3{
-    font-family: 'Saira', sans-serif;
+    font-family: 'Lugrasimo', cursive;
     color: #BFA2DB;
     font-size: 1.5vw;
 }
@@ -122,7 +215,7 @@ a{
     color: #11999E;
 }
 .top-container{
-    padding-top: 5%;
+    padding-top: 7%;
     
     background-image:url(media/Screenshot_20220925-154818.jpg);
     background-repeat: no-repeat;
@@ -136,46 +229,34 @@ a{
     background-image: url('media/computer-gif.gif'), linear-gradient(30deg,#B2C8DF 50%,#C4D7E0 50%);
     background-repeat: no-repeat;
     background-size: 60% 80%, cover;
-    padding-top: 12%;
+    padding-top: 10%;
     background-position: 50% 50%;
     padding-bottom: 3%;
-    
-}
-.top-cloud{
-    position:absolute;
-    top:25%;
-    right:10%; 
-    width:13%;
-   
-}
-.bottom-cloud{
-    position:absolute;
-    top:40%;
-    left:3%;
-    width:13%;
+    height: fit-content;
 }
 
 p{
     font-size: 1.3vw;
 }
 .display-photo{
-    height:23%;
-    width:18%;
-    border-radius: 100%;
     
-   
+    width:25%;
+    border-radius: 100%;   
 }
 .abt-sec{
-    width:50%;
+    width:60%;
     margin: auto;
     font-family: 'Cairo', sans-serif;
     text-align: justify;
     color: #1B2430;
+    font-size: 2vw;
 }
 .hello{
     color: #1B2430;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 1%;
+    font-size:5vw;
+    margin-top: 1%;
 }
 
 .html-div{
@@ -188,36 +269,20 @@ p{
     text-align: justify;
     color: #9ADCFF;
 }
-.html5{
-    height:17em;
-    width:15em;
-    float: left;
-    
-}
+
 .css-div{
     text-align: center;
 }
-.css3{
-    height:17em;
-    width:15em;
-    float: right;
-    margin-top: 10%;
-    
-    
-}
+
 .css-content{
     text-align: justify;
     margin-right: 40%;
     color: #9ADCFF;
 }
 .wordpress{
-    height:17em;
-    width:15em;
-    float: left;
-    margin-right:3%;
-    margin-left: 25%;
-    margin-top: 6%;
-    
+    height:50%;  
+    margin: auto;
+    padding-top: 5%;
 }
 .wordpress-div{
     text-align: center;
@@ -235,13 +300,17 @@ p{
     background-image: linear-gradient(30deg,#1A1A40 50%,#270082 50%);
     padding-bottom: 5%;
 }
+.skill-head{
+    font-size: 2.1rem;
+    font-weight:bold;
+}
 .skill-row{
     margin: 10%;
 }
 .contactme-icons{
-    height:3%;
-    width:3%;
-    margin:1%
+    height:2rem;
+    width:2rem;
+    margin:1%;
 }
 .skill-row{
     width:50%;
@@ -258,15 +327,18 @@ div{
 .git{
     color: #CDF0EA;
     font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
 
 }
 .personal-project{
     font-family: 'Cairo', sans-serif;
-    color:#F9F9F9
+    color:#F9F9F9;
+    font-size: 0.8rem;
 }
 .cont{
     color: #CDF0EA;
     font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
     
 }
 .email{
@@ -277,13 +349,7 @@ div{
 }
 
 @media all and (max-width:860px){
-    .wordpress{
-       float: none;
-       height:65%;
-       width:45%;
-       margin-right: 1%;
-       margin-left: 30%;        
-    }
+    
     .word-head{
         margin-left: 30%;
         font-size: 3vw;

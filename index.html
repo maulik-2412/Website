@@ -1,96 +1,513 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!-- [if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif] -->
+<!-- [if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif] -->
+<!-- [if IE 8]>         <html class="no-js lt-ie9"> <![endif] -->
+<!-- [if gt IE 8]>      <html class="no-js"> <!--<![endif] -->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Maulik Tyagi | Web Developer</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="media/favicon.ico">
-        <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-  
-    </head>
-    <body>
-      <nav class="nav-bar">
-        <ul class="nav-list">
-          <li class="selected"><a href="#home" class="li">Home</a></li>
-          <li class="selected"><a href="#about" class="li">About</a></li>
-          <li class="selected"><a href="#skills" class="li">Skills</a></li>
-          <li class="selected"><a href="#contact" class="li">Contact</a></li>
-        </ul>
-      </nav>
-        <div class="top-container" id="home">
-            
-            <div class="name-box">
-                <h1 class="name">I'm Maulik Tyagi</h1>
-                <h2 class="web-dev"><strong>A<span class="web"> Web </span>Developer</strong></h2> 
-            </div>
-           
-                     
+<head>
+  <meta charset="utf-8"></meta>
+
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  ></meta>
+
+  <title>Maulik Tyagi | Web Developer</title>
+
+  <meta
+    name="description"
+    content=""
+  ></meta>
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  ></meta>
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+  ></link>
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  ></link>
+
+  <link
+    rel="icon"
+    href="media/favicon.ico"
+  ></link>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap"
+    rel="stylesheet"
+  ></link>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap"
+    rel="stylesheet"
+  ></link>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap"
+    rel="stylesheet"
+  ></link>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+    rel="stylesheet"
+  ></link>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400&display=swap"
+    rel="stylesheet"
+  ></link>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap"
+    rel="stylesheet"
+  ></link>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+    rel="stylesheet"
+  ></link>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap"
+    rel="stylesheet"
+  ></link>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light d-none d-lg-block">
+    <div class="collapse navbar-collapse custom-navbar-div d-flex flex-row-reverse">
+      <ul class="navbar-nav mr-auto custom-nav end-0">
+        <li class="nav-item">
+          <a
+            class="nav-link nav-largescreen nav-diffcolor"
+            aria-current="page"
+            href="#home"
+          >Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link nav-largescreen nav-diffcolor"
+            href="#about"
+          >About</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link nav-largescreen nav-diffcolor"
+            href="#skills"
+          >Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link nav-largescreen nav-diffcolor"
+            href="#contact"
+          >Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light d-block d-lg-none d-flex">
+    <button
+      class="navbar-toggler btn btn-dark custom-btn"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbartoggle"
+      aria-controls="navbartoggle"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span>
+        <img
+          class="btn-image"
+          src="media/icons8-menu-24.png"
+        >
+      </span>
+    </button>
+
+    <div
+      class="collapse navbar-collapse bg-dark"
+      id="navbartoggle"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a
+            class="mobile navlinks nav-link white  active"
+            aria-current="page"
+            href="#home"
+          >Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="mobile navlinks nav-link white"
+            href="#about"
+          >About</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="mobile navlinks nav-link white"
+            href="#skills"
+          >Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="mobile navlinks nav-link white"
+            href="#contact"
+          >Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div
+    class="top-container"
+    id="home"
+  >
+    <div class="name-box">
+      <h1 class="name">I'm Maulik Tyagi</h1>
+
+      <h2 class="web-dev">
+        <strong>
+          A
+
+          <span class="web">Web</span>
+
+          Developer
+        </strong>
+      </h2>
+    </div>
+  </div>
+
+  <div
+    class="middle-container"
+    id="about"
+  >
+    <div class="profile">
+      <img
+        src="media/display photo.jpeg"
+        alt="My Photo"
+        class="display-photo"
+      >
+
+      <h2 class="hello">Hello.</h2>
+
+      <p class="abt-sec">
+        I'm a beginner Web Developer. I have just started on my Web Development Journey. I am a CS Undergraduate from India.
+      </p>
+
+      <p class="abt-sec">
+        Having tried many things, I finally ended up picking Web Development or Programming in general. Surprisingly, I have just found something I'm interested in. The satisfaction of completing a challenge or overcoming a problem makes me keep going. And now I just love sitting and writing code, learning new things, and solving problems.
+      </p>
+    </div>
+  </div>
+
+  <div
+    class="skills"
+    id="skills"
+  >
+    <h2 class="skill-head">My Skills.</h2>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 card-cover">
+        <div class="card skills-card">
+          <img
+            class="wordpress"
+            src="media/HTML5-icon.png"
+            alt="html-5 icon"
+          >
+
+          <div class="card-body">
+            <h3 class="card-title skill-name">HTML5</h3>
+          </div>
         </div>
-        <div class="middle-container" id="about">
-            <div class="profile">
-              <img src="media/display photo.jpeg" alt="My Photo" class="display-photo">
-              <h2 class="hello">Hello.</h2>
-              <p class="abt-sec">I'm a beginner Web Developer. I have just started on my Web Development Journey. I am a CS Undergraduate from India.</p>
-              <p class="abt-sec">Having tried many things, I finally ended up picking Web Development or Programming in general. Surprisingly, I have just found something I'm interested in. The satisfaction of completing a challenge or overcoming a problem makes me keep going. And now I just love sitting and writing code, learning new things, and solving problems.  </p>
-            </div>
-            
+      </div>
+
+      <div class="col-lg-4 col-sm-6 card-cover">
+        <div class="card skills-card">
+          <img
+            class="wordpress"
+            src="media/CSS3_logo.svg.png"
+            alt="css-3 icon"
+          >
+
+          <div class="card-body">
+            <h3 class="card-title skill-name">CSS3</h3>
           </div>
-          
-            <div class="skills" id="skills">
-              <h2>My Skills.</h2>
-              <div class="skill-row">
-                <div class="html-div">
-                 <img  class="html5" src="media/HTML5-icon.png" alt="html-5 icon">
-                 <h3 class="lang">HTML 5</h3>
-                 <p class="html-content">HTML5 is the standard markup language for websites. I have been using it for many different challenges and have been quite successful in it. I know my way around HTML and am able to use HTML quite comfortably. </p>
-                </div>
-                <div class="css-div">
-                 <img  class="css3" src="media/CSS3_logo.svg.png" alt="css-3 icon">
-                 <h3 class="css-head">CSS 3</h3>
-                
-                 <p class="css-content">CSS or Cascading Style Sheets is the language generally used to style HTML. It accounts for the way our website looks. I have done my share of CSS tutorials and am pretty confident with my use of CSS. From animations to positioning elements, I have completed some of the challenges requiring the knowledge of CSS to make the website responsive. </p>
-                </div>
-                </div>
-                
-              <div class="wordpress-div">
-                <img class="wordpress" src="media/Wordpress.png" alt="wordpress icon">
-                <h3 class="word-head">Word Press</h3>
-                <p class="wordpress-content">WordPress is a free content management system that is used to manage and design websites. It certainly doesn't require in-depth knowledge of Computer Languages but it powers almost 40% of Websites on the Web. I'm fairly new to it and am itching to learn more about it.  </p>
-              </div>
-            </div>
-            
-            
-            <div class="contact-me" id="contact">
-              <h2>Get In Touch</h2>
-              <h3 class="git">For any collabration and project.</h3>
-              <p  class="personal-project">I am working on my personal projects. I would also love to get in contact and work with you.</p>
-              <h3 class="cont" > <a class="email" href="mailto:mauliktyagi@gmail.com">Contact Me</a></h3>
-            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 card-cover">
+        <div class="card skills-card">
+          <img
+            class="wordpress"
+            src="media/Wordpress.png"
+            alt="wordpress icon"
+          >
+
+          <div class="card-body">
+            <h3 class="card-title skill-name">Wordpress</h3>
           </div>
-          
-          
-          <div class="bottom-container">
-            <a class="footer-link" href="https://www.frontendmentor.io/profile/maulik-2412"><img class="contactme-icons" src="media/front-end.jpg"></a>
-            <a class="footer-link" href="https://www.linkedin.com/in/maulik-tyagi-90aa09229/"><img class="contactme-icons" src="media/linkedin-icon.webp"></a>
-            <a class="footer-link" href="https://github.com/maulik-2412"><img class="contactme-icons" src="media/github-icon.png"></a>           
-            <p>© 2022 Maulik Tyagi</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 card-cover">
+        <div class="card skills-card">
+          <img
+            class="wordpress cpanel"
+            src="media/cpanel.png"
+            alt="wordpress icon"
+          >
+
+          <div class="card-body">
+            <h3 class="card-title skill-name">CPanel</h3>
           </div>
-         
-          
-          
-        <script src="" async defer></script>
-    </body>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 card-cover">
+        <div class="card skills-card">
+          <img
+            class="wordpress"
+            src="media/reactjs.png"
+            alt="wordpress icon"
+          >
+
+          <div class="card-body">
+            <h3 class="card-title skill-name">React.js</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 card-cover">
+        <div class="card skills-card">
+          <img
+            class="wordpress"
+            src="media/javascript.svg"
+            alt="wordpress icon"
+          >
+
+          <div class="card-body">
+            <h3 class="card-title skill-name">Javascript</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 card-cover">
+        <div class="card skills-card">
+          <img
+            class="wordpress"
+            src="media/java.svg"
+            alt="wordpress icon"
+          >
+
+          <div class="card-body">
+            <h3 class="card-title skill-name">Java</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 card-cover">
+        <div class="card skills-card">
+          <img
+            class="wordpress"
+            src="media/c++.png"
+            alt="wordpress icon"
+          >
+
+          <div class="card-body">
+            <h3 class="card-title skill-name">C++</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 card-cover">
+        <div class="card skills-card">
+          <img
+            class="wordpress"
+            src="media/bootstrap.svg"
+            alt="wordpress icon"
+          >
+
+          <div class="card-body">
+            <h3 class="card-title skill-name">Bootstrap</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="projects">
+    <h2 class="skill-head">My Projects</h2>
+
+    <div
+      id="project-carousel"
+      class="carousel slide car-main"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner carousel-block">
+        <div class="carousel-item active">
+          <a href="https://enva.msit.in/"><img
+            src="media/enva.PNG"
+            class="d-block w-100 carousel-image"
+            alt="..."
+          >
+          </a>
+          <div class="carousel-caption d-none d-md-block carousel-content">
+            <h5>ENVA 2023</h5>
+
+            <p>
+              A website project I created with Prakriti MSIT
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="media/java.svg"
+            class="d-block w-100 carousel-image"
+            alt="..."
+          >
+
+          <div class="carousel-caption d-none d-md-block carousel-content">
+            <h5>Second slide label</h5>
+
+            <p>
+              Some representative placeholder content for the second slide.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-indicators car-indi">
+        <button
+          type="button"
+          data-bs-target="#project-carousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+
+        <button
+          type="button"
+          data-bs-target="#project-carousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#project-carousel"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon"
+          aria-hidden="true"
+        ></span>
+
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#project-carousel"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon"
+          aria-hidden="true"
+        ></span>
+
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div
+    class="contact-me"
+    id="contact"
+  >
+    <h2 class="getintouch">Get In Touch</h2>
+
+    <h3 class="git">
+      For any collabration and project.
+    </h3>
+
+    <p class="personal-project">
+      I am working on my personal projects. I would also love to get in contact and work with you.
+    </p>
+
+    <h3 class="cont">
+      <a
+        class="email"
+        href="mailto:mauliktyagi@gmail.com"
+      >Contact Me</a>
+    </h3>
+  </div>
+
+  <div class="bottom-container">
+    <a
+      class="footer-link"
+      href="https://www.frontendmentor.io/profile/maulik-2412"
+    >
+      <img
+        class="contactme-icons"
+        src="media/front-end.jpg"
+      >
+    </a>
+
+    <a
+      class="footer-link"
+      href="https://www.linkedin.com/in/maulik-tyagi-90aa09229/"
+    >
+      <img
+        class="contactme-icons"
+        src="media/linkedin-icon.webp"
+      >
+    </a>
+
+    <a
+      class="footer-link"
+      href="https://github.com/maulik-2412"
+    >
+      <img
+        class="contactme-icons"
+        src="media/github-icon.png"
+      >
+    </a>
+
+    <p class="bot-copy">© 2023 Maulik Tyagi</p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+    $(document).ready(function(){
+            $(".navbar-nav .navlinks").on("click",function(){
+              $(".navbar-collapse").collapse("hide");
+            });
+          });
+  </script>
+</body>
 </html>
