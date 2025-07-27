@@ -39,7 +39,7 @@ export default async function handler(
       ? forwardedFor[0]
       : forwardedFor || req.socket.remoteAddress;
 
-    await limiter.check(res, 5, clientIp);
+    await limiter.check(5, clientIp);
 
     const recaptchaRes = await fetch(
       `https://www.google.com/recaptcha/api/siteverify`,

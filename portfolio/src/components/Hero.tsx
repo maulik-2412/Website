@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import profile from "../../public/picofme.png";
 import Image from "next/image";
-import dynamic from "next/dynamic";
+
 
 
 export default function Hero() {

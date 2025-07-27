@@ -12,7 +12,7 @@ export default function rateLimit({ interval, uniqueTokenPerInterval }: Options)
   })
 
   return {
-    check: (res: any, limit: number, token: string = "") =>
+    check: (limit: number, token: string = "") =>
       new Promise<void>((resolve, reject) => {
         const tokenCount = (tokenCache.get(token) as number) || 0
         if (tokenCount >= limit) {
