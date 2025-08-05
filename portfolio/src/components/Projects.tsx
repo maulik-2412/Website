@@ -35,7 +35,7 @@ export default function Projects() {
       description:
         "A backend focused application that allows users to post comments, edit and delete them, with allowing notifications for replies.",
       image: "/comment_app.png",
-      technologies: ["Next.js", "Nets.js", "PostgreSQL", "Docker"],
+      technologies: ["Next.js", "Nest.js", "PostgreSQL", "Docker"],
       liveUrl: "https://sanctityai-frontend.onrender.com/",
       githubUrl: "https://github.com/maulik-2412/Comment-App",
     },
