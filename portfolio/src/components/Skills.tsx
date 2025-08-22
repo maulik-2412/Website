@@ -5,24 +5,24 @@ import { Code, Database, Globe, ToolCase } from "lucide-react"
 export default function Skills() {
   const skillCategories = [
     {
-      title: "Frontend",
+      title: "Languages",
       icon: <Globe className="h-6 w-6" />,
-      skills: ["React", "Next.js", "TypeScript", "jQuery", "HTML5", "CSS3", "JavaScript"],
+      skills: ["Java", "Python", "TypeScript","JavaScript", "C++", "SQL"],
     },
     {
-      title: "Backend",
+      title: "Backend & Frontend",
       icon: <Code className="h-6 w-6" />,
-      skills: ["Node.js", "Express","Nest.js", "EJS", "REST APIs", "OAuth", "JWT"],
+      skills: ["React.js", "Node.js", "Express","Nest.js", "REST APIs", "BullMQ", "OAuth","Next.js", "Zustand"],
     },
     {
       title: "Database",
       icon: <Database className="h-6 w-6" />,
-      skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Mongoose"],
+      skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Mongoose", "DuckDB"],
     },
     {
       title: "Other Tools",
       icon: <ToolCase className="h-6 w-6" />,
-      skills: ["C/C++","Java","Python","Unix", "Git", "Docker", "Postman", "Firebase", "Vitest", "Alchemy"],
+      skills: ["Blockchain","AWS S3","Unix", "Git", "Docker", "Postman", "Firebase" ],
     },
   ]
 
