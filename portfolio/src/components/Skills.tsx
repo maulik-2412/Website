@@ -7,7 +7,7 @@ export default function Skills() {
     {
       title: "Languages",
       icon: <Globe className="h-6 w-6" />,
-      skills: ["Java", "Python", "TypeScript","JavaScript", "C++", "SQL"],
+      skills: ["Java", "Python", "TypeScript","JavaScript", "C++","C", "SQL"],
     },
     {
       title: "Backend & Frontend",
@@ -17,12 +17,12 @@ export default function Skills() {
     {
       title: "Database",
       icon: <Database className="h-6 w-6" />,
-      skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Mongoose", "DuckDB"],
+      skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Mongoose", "DuckDB","DynamoDB"],
     },
     {
       title: "Other Tools",
       icon: <ToolCase className="h-6 w-6" />,
-      skills: ["Blockchain","AWS S3","Unix", "Git", "Docker", "Postman", "Firebase" ],
+      skills: ["AWS S3","Unix", "Git", "Docker", "Postman", "Firebase","AWS Lambda" ],
     },
   ]
 
