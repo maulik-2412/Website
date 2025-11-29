@@ -22,7 +22,7 @@ export default function Skills() {
     {
       title: "Other Tools",
       icon: <ToolCase className="h-6 w-6" />,
-      skills: ["AWS S3","Unix", "Git", "Docker", "Postman", "Firebase","AWS Lambda" ],
+      skills: ["AWS","Linux", "Git", "Docker", "Postman", "Firebase", "GCP"],
     },
   ]
 
